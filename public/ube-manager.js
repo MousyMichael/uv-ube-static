@@ -13,8 +13,8 @@ window.onload = () => {
   const searchInput = document.getElementById("uv-address")
   const form = document.getElementById("uv-form")
   
-  engineInput.setAttribute("value", engine)
-  searchInput.setAttribute("value", search)
+    engineInput.setAttribute("value", engine)
+    searchInput.setAttribute("value", search)
   
-  form.submit()
+  document.getElementById("ube-submit").click()
 }
